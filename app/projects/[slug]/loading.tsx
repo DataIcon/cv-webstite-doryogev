@@ -23,7 +23,7 @@ export default function Loading() {
           Loading Project
         </p>
 
-        <h1 className={`text-5xl md:text-7xl font-bold tracking-wide bg-gradient-to-r ${isDarkMode ? 'from-white/10 via-white/40 to-white/10' : 'from-slate-950/10 via-slate-950/40 to-slate-950/10'} bg-[length:200%_100%] bg-clip-text text-transparent animate-[shine_2.5s_linear_infinite] select-none`}>
+        <h1 className={`text-5xl md:text-7xl font-bold leading-tight tracking-wide bg-gradient-to-r ${isDarkMode ? 'from-white/10 via-white/40 to-white/10' : 'from-slate-950/10 via-slate-950/40 to-slate-950/10'} bg-[length:200%_100%] bg-clip-text text-transparent animate-[shine_2.5s_linear_infinite] select-none`}>
           Dor Yogev
         </h1>
 

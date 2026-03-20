@@ -84,7 +84,11 @@ export default function ProjectPage() {
       <section className="relative z-10 max-w-5xl mx-auto px-6 py-16">
         <Link
           href="/#projects"
-          className="inline-flex items-center gap-2 text-sky-400 hover:text-sky-300 transition mb-8"
+          className={`inline-flex items-center gap-2 px-4 py-2 rounded-xl border backdrop-blur transition duration-300 mb-8 ${
+            isDarkMode
+              ? "border-slate-700 bg-slate-900/60 text-sky-400 hover:border-slate-500 hover:bg-slate-900"
+              : "border-slate-300 bg-white/70 text-sky-600 hover:border-slate-400 hover:bg-white"
+          }`}
         >
           ← Back to Projects
         </Link>
